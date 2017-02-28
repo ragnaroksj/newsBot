@@ -1,7 +1,7 @@
 {
-  "name": "today news",
+  "name": "newsBot",
   "version": "0.0.0",
-  "description": "Today news",
+  "description": "get news",
   "main": "newsBot.js",
   "repository": "",
   "author": "Jun <ragnaroksj@gmail.com>",
