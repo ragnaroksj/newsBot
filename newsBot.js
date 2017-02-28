@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 var config = {
   webhookUrl: 'https://news-spark-bot.herokuapp.com/flint',
   token: 'M2RiMjJlNTMtNjQ1ZS00ZDI1LWJlYmUtNzRiOTllNjdmNjdlNmJlMjEyYWMtMWM4',
-  port: process.env.port,
+  port: process.env.PORT,
   removeWebhooksOnStart: false,
   maxConcurrent: 5,
   minTime: 50
