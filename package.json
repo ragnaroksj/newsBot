@@ -2,7 +2,7 @@
   "name": "today news",
   "version": "0.0.0",
   "description": "Today news",
-  "main": "server.js",
+  "main": "newsBot.js",
   "repository": "",
   "author": "Jun <ragnaroksj@gmail.com>",
   "dependencies": {
