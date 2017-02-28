@@ -1,0 +1,16 @@
+{
+  "name": "today news",
+  "version": "0.0.0",
+  "description": "Today news",
+  "main": "server.js",
+  "repository": "",
+  "author": "Jun <ragnaroksj@gmail.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "body-parser": "^1.16.1",
+    "express": "^3.2.6",
+    "node-flint": "^4.4.0",
+    "request": "^2.79.0",
+    "socket.io": "~0.9.14"
+  }
+}
