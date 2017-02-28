@@ -8,9 +8,9 @@ app.use(bodyParser.json());
 
 // flint options
 var config = {
-  webhookUrl: 'https://today-ragnaroksj.c9users.io/flint',
+  webhookUrl: 'https://news-spark-bot.herokuapp.com/flint',
   token: 'M2RiMjJlNTMtNjQ1ZS00ZDI1LWJlYmUtNzRiOTllNjdmNjdlNmJlMjEyYWMtMWM4',
-  port: 8080,
+  port: process.env.port,
   removeWebhooksOnStart: false,
   maxConcurrent: 5,
   minTime: 50
@@ -22,7 +22,7 @@ var headers = {
 };
 
 var options = {
-   'url': 'https://api.ciscospark.com/v1/messages',
+   url: 'https://api.ciscospark.com/v1/messages',
    method: 'POST',
    headers: headers,
    form: {}
